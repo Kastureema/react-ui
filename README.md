@@ -7,14 +7,14 @@ The components are below:
 - SearchBar - receives the user input
 - ProductTable - displays and filters the list according to the user input
 - ProductCategoryRow - displays a heading for each category
-- ProductROw - displays a row for each product
+- ProductRow - displays a row for each product
 
 The component hierarchy is as below:
-> FilterableProductTable
-  > SearchBar
-  > ProductTable
-    > ProductCategoryRow
-    > ProductRow
+- FilterableProductTable
+  - SearchBar
+  - ProductTable
+    - ProductCategoryRow
+    - ProductRow
 
 Deployed using github pages.
 
